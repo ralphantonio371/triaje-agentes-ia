@@ -1,0 +1,24 @@
+{
+  "id": "1700000001.12345",
+  "rule": {
+    "id": "5710",
+    "description": "sshd: Attempt to login using a non-existent user",
+    "level": 6
+  },
+  "severity": 6,
+  "description": "sshd: Attempt to login using a non-existent user",
+  "full_log": "Nov  3 02:14:22 lab-agent sshd[2871]: Failed password for invalid user admin from 185.220.101.34 port 51234 ssh2",
+  "agent": {
+    "id": "003",
+    "name": "lab-endpoint-linux"
+  },
+  "srcip": "185.220.101.34",
+  "srcuser": "admin",
+  "location": "/var/log/auth.log",
+  "predecoder": {
+    "program_name": "sshd"
+  },
+  "data": {
+    "srcip": "185.220.101.34"
+  }
+}

@@ -1,0 +1,7 @@
+# Python 3.11+
+langchain>=0.3
+langgraph>=0.2
+langchain-community>=0.3
+pydantic>=2.7
+faiss-cpu>=1.8
+pandas>=2.2

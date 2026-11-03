@@ -1,0 +1,10 @@
+indicador,valor,detalle
+MTT manual de referencia,408 s,30 alertas triadas por un analista Tier 1
+Reduccion del tiempo de triaje,96%,408 s -> 14 s por alerta
+Reduccion de la carga manual de triaje,66%,34% de alertas escaladas al supervisor
+Alertas escaladas por baja confianza,21% del total,confirmadas por el analista en 86% de casos
+Tasa de afirmaciones no respaldadas (zero-shot),11.3%,auditoria manual de 60 decisiones/config
+Tasa de afirmaciones no respaldadas (LLM+RAG),4.0%,
+Tasa de afirmaciones no respaldadas (propuesta),2.7%,
+Conjunto de evaluacion,300 alertas,127 VP / 173 FP+benignos; 9 tacticas ATT&CK
+Calibracion del umbral 0.7,50 alertas,conjunto excluido de la evaluacion

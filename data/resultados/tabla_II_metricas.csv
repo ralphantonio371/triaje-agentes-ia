@@ -1,0 +1,4 @@
+configuracion,exactitud,precision,recall,f1,mtt_segundos
+LLM zero-shot,0.79,0.78,0.72,0.75,16
+LLM + RAG,0.86,0.89,0.8,0.84,15
+Propuesta completa,0.89,0.92,0.84,0.88,14
